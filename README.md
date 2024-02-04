@@ -51,5 +51,5 @@ Other than that, the code has comments, but for future projects, I see I need mo
 Feel free to dissect the code and roast me.
 Or make it better 👍
 
-
-
+# Collaborators
+[@spehic](https://github.com/Spehic)
