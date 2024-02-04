@@ -34,12 +34,16 @@ Feel free to play around with your own polynomials and the number of iterations.
 
 The formula for the algorithm:
 
-\[ x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)} \]
+\[
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\]
 
 Since Newton's method requires derivatives, and I wanted to do it by myself, there's a function that returns a derivative of a function.
 
 This is also why I only did integer-coefficient polynomials, so I could use the power rule hihi.
-\[ f'(x) = n \cdot x^{n-1} \]
+\[
+f'(x) = n \cdot x^{n-1} 
+\]
 
 For the initial guess, we use the extreme points of a function.
 Extreme points are found using derivatives (again).
